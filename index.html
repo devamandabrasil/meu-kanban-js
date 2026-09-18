@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <title>Meu Kanban</title>
+    <!-- Conecta o arquivo de estilos -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Tarefas</h1>
+        <div class="entrada-dados">
+            <input type="text" id="nova-tarefa" placeholder="Digite uma nova tarefa">
+            <button id="btn-adicionar">Adicionar</button>
+        </div>    
+    </header>
+
+    <main class="quadro">
+        <!-- Coluna 1 -->
+        <div class="coluna" id="a-fazer">
+            <h2>A fazer</h2>
+        </div>
+        <!-- Coluna 2 -->
+        <div class="coluna" id="fazendo">
+            <h2>Fazendo</h2>
+        </div>
+        <!-- Coluna 3 -->
+        <div class="coluna" id="concluido">
+            <h2>Concluido</h2>
+        </div>
+    </main>
+    
+    <!--Conecta o arquivo de lógica no final da página -->
+    <script src="script.js" defer></script>
+</body>
+</html>
